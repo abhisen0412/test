@@ -1,0 +1,40 @@
+                                                               SOURCE CODE MANAGMENT COMMANDS 
+$pwd - display current working directory 
+git version - display the version of git installed on the system 
+$git version 
+$git config (user.name and user.email) - used to give user name and mail address 
+$git config --global user.name "abhi sen"
+$git config --global user.name--> display the name which is given above 
+$git config --global user.email "senabhi139@gmail.com"
+$git config --global user.email--> display the name which is given above 
+
+git status - tells us the status of tracked and untracked files 
+$git status 
+
+git init - it generates a new hiden folder by the name of .git 
+$git init
+
+touch bcd.txt-generate an empty text files 
+$touch bcd.txt
+
+vi bcd.txt - helps to editr the files by inserting or deleting contents
+$vi bcd.txt
+
+$cat bcd.txt - displays the content of the file command prompt
+ls-dispaly the names of the files and folders of current working repository 
+ls - ah -- attribute hidden 
+$ ls - ah -->returns./../git/abc.txt
+
+commit -m-- it display the statement that particular files is committed (initialed) but not yet tracked 
+$git commit -m "commit 1: change made"
+
+commit -a -m --it display the statement that all files are installed to be committed but untracked
+ $git commit -a  -m "commit 2:new changes done"
+
+mkdir - makes a new folder 
+$mkdir c ---> returns a new folder in present working directory 
+
+cd .. - it allows us to enter a particular folder ( here named "c")
+$cd..
+
+
